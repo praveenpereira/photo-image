@@ -1,6 +1,6 @@
 import React, {useState,useEffect} from 'react';
 
-import { launchImageLibrary } from 'react-native-image-picker';
+//import { launchImageLibrary } from 'react-native-image-picker';
 
 import {
 SafeAreaView,
@@ -10,7 +10,7 @@ View,
 Button,
 Image,
 } from 'react-native';
-//import * as ImagePicker from 'expo-image-picker';
+import * as ImagePicker from 'expo-image-picker';
 
 
 
