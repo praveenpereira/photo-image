@@ -1,6 +1,6 @@
 import React, {useState,useEffect} from 'react';
 
-//import { launchImageLibrary } from 'react-native-image-picker';
+import { launchImageLibrary } from 'react-native-image-picker';
 
 import {
 SafeAreaView,
@@ -15,7 +15,7 @@ Image,
 
 
 
-const Photo2 = () => {
+const Abstract = () => {
 const [hasGalleryPermission, setHasGalleryPermission] = useState(null);
 const [image, setImage] = useState(null);
 
@@ -51,5 +51,5 @@ const pickImage = async () =>{
 }
 
 
-export default Photo2;
+export default Abtract;
 
