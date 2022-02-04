@@ -2,9 +2,9 @@ import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import Home from './Home';
-import Photo1 from './Photo1';
-import Photo2 from './Photo2';
-import Photo3 from './Photo3';
+import Landscape from './Landscape';
+import Abstract from './Abstract';
+import Portrait from './Portrait';
 
 const Stack = createStackNavigator();
 
@@ -14,9 +14,9 @@ export default function App(){
      <NavigationContainer>
     <Stack.Navigator >
         <Stack.Screen name="home" component={Home} options = {screenOptionStyle}/>
-        <Stack.Screen name="photo1" component={Photo1}/>
-        <Stack.Screen name="photo2" component={Photo2}/>
-        <Stack.Screen name="photo3" component={Photo3}/>
+        <Stack.Screen name="landscape" component={Landscape}/>
+        <Stack.Screen name="abstract" component={Abstract}/>
+        <Stack.Screen name="portrait" component={Portrait}/>
     </Stack.Navigator>
      </NavigationContainer>  
     );
