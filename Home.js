@@ -18,7 +18,7 @@ const Home = ({navigation})=>{
                  borderRadius:10,marginVertical:20,justifyContent:'center',
                  width:'100%',backgroundColor:'green',padding:20}} 
                   onPress={()=>{navigation.navigate('abstract')}}>
-                    <Text style={{fontSize:20}} >Abstract</Text>
+                    <Text style={{fontSize:20}}>Abstract</Text>
                 </TouchableOpacity>
             </View>
             <View>
