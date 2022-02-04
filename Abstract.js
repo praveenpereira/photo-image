@@ -51,5 +51,5 @@ const pickImage = async () =>{
 }
 
 
-export default Abtract;
+export default Abstract;
 
